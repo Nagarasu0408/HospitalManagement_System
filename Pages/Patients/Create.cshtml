@@ -1,0 +1,41 @@
+@page
+@model HospitalManagementSystem.Pages.Patients.CreateModel
+@{
+    ViewData["Title"] = "Add Patient";
+}
+
+<h1>Add Patient</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Patient.FullName"></label>
+        <input asp-for="Patient.FullName" class="form-control" />
+        <span asp-validation-for="Patient.FullName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Age"></label>
+        <input asp-for="Patient.Age" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Gender"></label>
+        <input asp-for="Patient.Gender" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Address"></label>
+        <input asp-for="Patient.Address" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Phone"></label>
+        <input asp-for="Patient.Phone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Email"></label>
+        <input asp-for="Patient.Email" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success mt-3">Save</button>
+    <a asp-page="Index" class="btn btn-secondary mt-3">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

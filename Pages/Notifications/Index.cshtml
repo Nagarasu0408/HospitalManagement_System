@@ -1,0 +1,30 @@
+@page
+@model HospitalManagementSystem.Pages.Notifications.IndexModel
+@{
+    ViewData["Title"] = "Notifications";
+}
+
+<h1>Notifications</h1>
+
+@if (User.IsInRole("Admin"))
+{
+    <a asp-page="Create" class="btn btn-primary">Create Notification</a>
+}
+
+@if (Model.NotificationList.Count == 0)
+{
+    <p>No notifications available.</p>
+}
+else
+{
+    <ul class="list-group mt-3">
+        @foreach (var note in Model.NotificationList)
+        {
+            <li class="list-group-item">
+                <strong>@note.RecipientRole:</strong> @note.Message
+                <br /><small class="text-muted">@note.CreatedAt.ToString("g")</small>
+            </li>
+        }
+    </ul>
+}
+

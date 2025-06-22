@@ -1,0 +1,17 @@
+@page "{id:int}"
+@model HospitalManagementSystem.Pages.Doctors.DeleteModel
+@{
+    ViewData["Title"] = "Delete Doctor";
+}
+
+<h1>Delete Doctor</h1>
+
+<h3>Are you sure you want to delete this doctor?</h3>
+
+<p><strong>@Model.Doctor.FullName</strong> - Specialty: @Model.Doctor.Specialty</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Doctor.Id" />
+    <button type="submit" class="btn btn-danger mt-2">Delete</button>
+    <a asp-page="Index" class="btn btn-secondary mt-2">Cancel</a>
+</form>

@@ -1,0 +1,28 @@
+@page "{id:int}"
+@model HospitalManagementSystem.Pages.Appointments.DetailsModel
+@{
+    ViewData["Title"] = "Appointment Details";
+}
+
+<h1>Appointment Details</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Patient</th>
+        <td>@Model.Appointment.Patient.FullName</td>
+    </tr>
+    <tr>
+        <th>Doctor</th>
+        <td>@Model.Appointment.Doctor.FullName</td>
+    </tr>
+    <tr>
+        <th>Date</th>
+        <td>@Model.Appointment.AppointmentDate.ToString("f")</td>
+    </tr>
+    <tr>
+        <th>Reason</th>
+        <td>@Model.Appointment.Reason</td>
+    </tr>
+</table>
+
+<a asp-page="Index" class="btn btn-secondary">Back to List</a>

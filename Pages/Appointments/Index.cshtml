@@ -1,0 +1,37 @@
+@page
+@model HospitalManagementSystem.Pages.Appointments.IndexModel
+@{
+    ViewData["Title"] = "Appointments";
+}
+
+<h1>Appointments</h1>
+
+<a asp-page="Create" class="btn btn-primary">Book Appointment</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Patient</th>
+            <th>Doctor</th>
+            <th>Date</th>
+            <th>Reason</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var app in Model.Appointments)
+        {
+            <tr>
+                <td>@app.Patient.FullName</td>
+                <td>@app.Doctor.FullName</td>
+                <td>@app.AppointmentDate.ToString("g")</td>
+                <td>@app.Reason</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@app.Id">Edit</a> |
+                    <a asp-page="Details" asp-route-id="@app.Id">Details</a> |
+                    <a asp-page="Delete" asp-route-id="@app.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

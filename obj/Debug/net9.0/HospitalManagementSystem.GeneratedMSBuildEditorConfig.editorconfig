@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HospitalManagementSystem
+build_property.RootNamespace = HospitalManagementSystem
+build_property.ProjectDir = E:\WNS\Projects\HospitalManagementSystem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\WNS\Projects\HospitalManagementSystem
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Admin/RegisterDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVnaXN0ZXJEb2N0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Appointments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Appointments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Appointments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Appointments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Appointments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Doctors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Doctors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Doctors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Doctors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Doctors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Notifications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWZpY2F0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Notifications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWZpY2F0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Patients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Patients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Patients/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Patients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Patients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WNS/Projects/HospitalManagementSystem/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-izjj1eutvs

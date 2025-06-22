@@ -1,0 +1,38 @@
+@page "{id:int}"
+@model HospitalManagementSystem.Pages.Patients.DetailsModel
+@{
+    ViewData["Title"] = "Patient Details";
+}
+
+<h1>Patient Details</h1>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <th>Full Name</th>
+            <td>@Model.Patient.FullName</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>@Model.Patient.Age</td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>@Model.Patient.Gender</td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>@Model.Patient.Address</td>
+        </tr>
+        <tr>
+            <th>Phone</th>
+            <td>@Model.Patient.Phone</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>@Model.Patient.Email</td>
+        </tr>
+    </table>
+</div>
+
+<a asp-page="Index" class="btn btn-secondary">Back to List</a>
