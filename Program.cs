@@ -20,6 +20,8 @@ options.SignIn.RequireConfirmedAccount = false)
 .AddEntityFrameworkStores<ApplicationDbContext>()
 .AddDefaultTokenProviders();
 
+builder.Services.AddControllers();  //--> Add Controller
+
 
 
 var app = builder.Build();
@@ -36,6 +38,8 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication(); // <-- Authentication middleware
 app.UseAuthorization();
+app.MapControllers(); // <--- enable controller routing
+
 
 using (var scope = app.Services.CreateScope())
 {

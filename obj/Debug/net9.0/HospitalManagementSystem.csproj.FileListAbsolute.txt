@@ -219,3 +219,4 @@ E:\WNS\Projects\HospitalManagementSystem\obj\Debug\net9.0\refint\HospitalManagem
 E:\WNS\Projects\HospitalManagementSystem\obj\Debug\net9.0\HospitalManagementSystem.pdb
 E:\WNS\Projects\HospitalManagementSystem\obj\Debug\net9.0\HospitalManagementSystem.genruntimeconfig.cache
 E:\WNS\Projects\HospitalManagementSystem\obj\Debug\net9.0\ref\HospitalManagementSystem.dll
+E:\WNS\Projects\HospitalManagementSystem\obj\Debug\net9.0\HospitalManagementSystem.sourcelink.json
